@@ -1,0 +1,301 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .cv_content img {
+      margin: 0;
+    }
+    .cv_content .description {
+      padding: 0;
+      margin: 0;
+      color: #d9d9d9;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .cv_content .notes{
+      font-size: 14px;
+    }
+    .cv_content .title {
+      color: #d9d9d9;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      /* margin-bottom: 14px; */
+    }
+    .cv_content .big_title {
+      color: #d9d9d9;
+      font-family: 'Roboto',sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 100%;
+      margin: 0;
+    }
+    .cv_content ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .cv_content ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .cv_content {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .cv_content ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .cv_content ul li {
+      padding: 0;
+    }
+    .cv_content div {
+      padding: 0;
+    }
+    div.cv_content {
+      padding: 0;
+    }
+    .cv_content br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .cv_content{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .cv_content img{
+      width: 100%;
+      display: block;
+    }
+
+    .cv_content a{
+      color: #d9d9d9;
+      text-decoration: none;
+    }
+
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px;
+        } 
+    }
+
+    .cv_content .resume{
+      display: grid;
+    }
+    .cv_content .resume .block_info{
+      display: grid;
+      background: #5f655f;
+      gap: 20px;
+      padding-bottom: 40px;
+      align-content: space-around;
+    }
+
+    .cv_content .resume .block_info_text{
+      display: grid;
+      gap: 10px;
+      padding: 20px 16px;
+    }
+
+    .cv_content .resume .fot_me{
+      display: grid;
+      padding: 0 16px;
+      gap: 10px;
+    }
+    .cv_content .resume .contact{
+      display: grid;
+      gap: 10px;
+      padding: 0 16px;
+    }
+
+
+  .cv_content .block_expertise{
+    padding: 20px 16px;
+    background: #a7a7a7;
+
+  }
+
+  .cv_content .block_expertise .description{
+    color: #353535;
+    text-shadow: 6px -2px 20px #a7a7a7;
+  }
+  .cv_content .block_expertise .title{
+    padding: 12px;
+    border-radius: 10px;
+      background: #353535;
+  }
+
+  .cv_content .block_expertise .work_text_item{
+    display: grid;
+    gap: 10px;
+  }
+  .cv_content .block_expertise .work_text_item:nth-child(1){
+    border-bottom: 1px solid #353535c0;
+    padding-bottom: 20px;
+  }
+  .cv_content .block_expertise .work_text{
+    display: grid;
+    padding: 24px 0;
+    gap: 20px;
+  }
+  .cv_content .block_expertise .workplace{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .cv_content .block_expertise .data{
+    text-decoration: underline;
+  }
+
+
+
+  @media screen and (min-width:666px) {
+    .cv_content .resume{
+      grid-template-columns: 1fr 1.1fr;
+    }
+    .cv_content .resume .block_info{
+      align-content: start;
+    }
+    .cv_content .block_expertise{
+      padding: 24px;
+      border-right: 4px solid #353535c2;
+      border-bottom: 4px  #353535c2;
+
+    }
+}
+
+  @media screen and (min-width:1024px) {
+    .cv_content .resume{
+      
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+    .cv_content .description {
+      font-size: 18px;
+    }
+    .cv_content .block_expertise .workplace{
+      font-size: 22px;
+    }
+    .cv_content .notes{
+      font-size: 14px;
+    }
+    .cv_content .title {
+      font-size: 24px;
+    }
+    .cv_content .resume .block_info{
+      padding: 0 0 180px;
+      align-content: space-between;
+    }
+    .cv_content .resume .block_info_text{
+      padding: 80px 24px 0;
+    }
+    .cv_content .resume .fot_me{
+      padding: 0 24px;
+    }
+    .cv_content .resume .contact{
+      padding: 0 24px;
+    }
+    .cv_content .big_title{
+      font-size: 70px;
+    }
+}
+  @media screen and (min-width:1024px) {
+    .cv_content .resume{
+      
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+    .cv_content .description {
+      font-size: 18px;
+    }
+    .cv_content .block_expertise .workplace{
+      font-size: 22px;
+    }
+    .cv_content .notes{
+      font-size: 14px;
+    }
+    .cv_content .title {
+      font-size: 24px;
+    
+      /* margin-bottom: 14px; */
+    }
+}
+
+
+.cv_content .portfilio{
+  background: #5f655f;
+  max-width: 992px;
+  margin: -1px auto 0;;
+}
+
+.cv_content .portfilio .big_title{
+  font-size: 20px;
+  background: #353535c2;
+  padding: 12px;
+  text-transform:none
+}
+
+.cv_content .portfilio .portfilio_block{
+  display: grid;
+  gap: 0px;
+}
+
+
+.cv_content .portfilio .big_title{
+  text-align: center;
+  color: #d9d9d9;
+}
+
+.cv_content .portfilio .description{
+  text-align: center;
+  text-decoration: underline;
+  color: #d9d9d9;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+@media screen and (min-width:666px) {
+  .cv_content .portfilio .big_title{
+    font-size: 32px;
+    margin: 0 auto;
+  }
+
+  .cv_content .portfilio .portfilio_block{
+    gap: 0 10px;
+    padding: 0 24px 24px;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (min-width:1024px) {
+  .cv_content .portfilio{
+  }
+.cv_content .portfilio .description{
+  font-size: 18px;
+  padding: 16px;
+}
+  .cv_content .portfilio .big_title{
+    font-size: 36px;
+  }
+  .cv_content .portfilio .portfilio_block{
+    gap:0px 16px;
+    padding: 0 24px 24px;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
